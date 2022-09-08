@@ -1,0 +1,21 @@
+@import url('/assets/styles/neon.css');
+@import url('/assets/styles/paralax.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+iframe{
+    border-radius: 12px;
+    height: 30vh;
+    border: 3px solid black;
+    padding: 0 10vw 0 10vw;
+}
+
+.swiper{
+    display: flex;
+    height:max-content;
+    align-items: center;
+    justify-content: center;
+}

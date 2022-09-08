@@ -1,41 +1,64 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 section {
     width: 100vw;
-    height: 300px;
+    height: 30vh;
+    display: flex;
+    
+    align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: black;
+    
 }
 
 section:nth-of-type(1) {
-    background-image: url('/efeito_paralax/images/beyoncé.png');
-    height: 100vh;
-    background-position: center top;
+    background-color: black;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 
+}
+section:nth-of-type(2){
+    height: 30vh;
 }
 
 section:nth-of-type(3) {
-    background-image: url('/efeito_paralax/images/gaga.png');
-    height: 100vh;
-    background-position: left top;
+        background-image: url('/assets/divas/beyoncé.png');
+        height: 70vh;
+        background-position: center top;
 
-}
+    }
 
 section:nth-of-type(5) {
-    background-image: url('/efeito_paralax/images/madonna.png');
-    height: 100vh;
+    background-image: url('/assets/divas/madonna.png');
+    height: 70vh;
     background-position: center;
 
 }
 
 section:nth-of-type(7) {
-    background-image: url('/efeito_paralax/images/rihanna.png');
-    height: 100vh;
+    background-image: url('/assets/divas/rihanna.png');
+    height: 70vh;
     background-position: center top;
 
 }
+section:nth-of-type(9) {
+    background-image: url('/assets/divas/miley.png');
+    height: 70vh;
+    background-position: center top;
+
+}
+section:nth-of-type(11) {
+    background-image: url('/assets/divas/sia.png');
+    height: 70vh;
+    background-position: center top;
+
+}
+
+section:nth-of-type(13){
+        background-image: url('/assets/divas/gaga.png');
+        height: 70vh;
+        background-position: left top;
+
+    }
