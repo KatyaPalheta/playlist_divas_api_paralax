@@ -62,3 +62,12 @@ section:nth-of-type(13){
         background-position: left top;
 
     }
+
+@media only screen and (max-width: 400px) {
+        section:nth-of-type(7) {
+            background-position-x: 30%;
+            }
+        section:nth-of-type(11) {
+            background-position-x:30%;
+        }
+ }

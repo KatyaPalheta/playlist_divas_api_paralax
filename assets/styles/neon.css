@@ -66,3 +66,8 @@
 .neon:hover {
     text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px;
 }
+
+@media only screen and (max-width: 400px){
+   .neon{ font-size: 100px;}
+
+}
