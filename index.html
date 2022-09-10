@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Divas! Paralax e API do Spotfy</title>
 		<link rel="stylesheet" href="/assets/styles/reset.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="/assets/styles/style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,12 +23,45 @@
 		/>
 	</head>
 	<body>
-		<section>
+		<section class="capa">
 			<div class="principal">
-				<a href="#" class="neon">DIVAS</a>
+				<a href="#" class="neon">Divas</a>
+			</div>
+			<div class="carrossel swiper">
+				<div class="swiper-wrapper">
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/beyoncé-slide.png"
+						alt="Beyoncé"
+					/>
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/madonna-silde.png"
+						alt="Madonna"
+					/>
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/rihanna-slide.png"
+						alt="Rihanna"
+					/>
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/sia-slide.png"
+						alt="Sia"
+					/>
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/miley-slide.png"
+						alt="Miley"
+					/>
+					<img
+						class="slide swiper-slide"
+						src="/assets/divas/gaga-slide.png"
+						alt="Gaga"
+					/>
+				</div>
 			</div>
 		</section>
-		<section></section>
 		<section></section>
 		<section>
 			<iframe
@@ -48,5 +85,7 @@
 		<section></section>
 		<section></section>
 		<section></section>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script src="/assets/scripts/main.js"></script>
 	</body>
 </html>

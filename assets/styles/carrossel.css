@@ -1,0 +1,17 @@
+.carrossel {
+    color: #fff;
+    width: 100vw;
+    background-color: gray;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 2em;
+}
+
+.swiper-wrapper {
+    width: 80vw;
+}

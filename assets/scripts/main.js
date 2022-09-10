@@ -1,13 +1,15 @@
-var swiper = new Swiper('.swiper', {
-	cssMode: true,
+const swiper = new Swiper('.swiper', {
+	speed: 400,
+	spaceBetween: 10,
+	slidesPerView: 5,
 	loop: true,
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
+	autoplay: {
+		delay: 5000,
 	},
-	pagination: {
-		el: '.swiper-pagination',
-		type: 'bullets',
-	},
-	keyboard: true,
+});
+
+const media = matchMedia('(max-width: 400px)');
+media.addEventListener('estreitar', ({ media, matches }) => {
+	let tamanho = (media, matches);
+	console.log(tamanho);
 });

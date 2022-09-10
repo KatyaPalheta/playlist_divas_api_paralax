@@ -13,52 +13,48 @@ section {
 
 section:nth-of-type(1) {
     background-color: black;
-    height: 70vh;
+    height: 100vh;
     display: grid;
     justify-content: center;
     align-content: center;
-
-}
-section:nth-of-type(2){
-    height: 30vh;
 }
 
-section:nth-of-type(3) {
+section:nth-of-type(2) {
         background-image: url('/assets/divas/beyoncé.png');
-        height: 70vh;
+        height: 100vh;
         background-position: center top;
 
     }
 
-section:nth-of-type(5) {
+section:nth-of-type(4) {
     background-image: url('/assets/divas/madonna.png');
-    height: 70vh;
+    height: 100vh;
     background-position: center;
 
 }
 
-section:nth-of-type(7) {
+section:nth-of-type(6) {
     background-image: url('/assets/divas/rihanna.png');
-    height: 70vh;
+    height: 100vh;
     background-position: center top;
 
 }
-section:nth-of-type(9) {
+section:nth-of-type(8) {
     background-image: url('/assets/divas/miley.png');
-    height: 70vh;
+    height: 100vh;
     background-position: center top;
 
 }
-section:nth-of-type(11) {
+section:nth-of-type(10) {
     background-image: url('/assets/divas/sia.png');
-    height: 70vh;
+    height: 100vh;
     background-position: center top;
 
 }
 
-section:nth-of-type(13){
+section:nth-of-type(12){
         background-image: url('/assets/divas/gaga.png');
-        height: 70vh;
+        height: 100vh;
         background-position: left top;
 
     }
