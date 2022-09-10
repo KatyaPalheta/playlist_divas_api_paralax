@@ -8,8 +8,8 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
-const media = matchMedia('(max-width: 400px)');
-media.addEventListener('estreitar', ({ media, matches }) => {
-	let tamanho = (media, matches);
+const media = matchMedia('(max-width: 400px).matshes');
+media.addEventListener('estreitar', ({ e }) => {
+	const tamanho = e;
 	console.log(tamanho);
 });
