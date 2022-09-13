@@ -4,12 +4,35 @@ const swiper = new Swiper('.swiper', {
 	slidesPerView: 5,
 	loop: true,
 	autoplay: {
-		delay: 5000,
+		delay: 2000,
 	},
-});
-
-const media = matchMedia('(max-width: 400px).matshes');
-media.addEventListener('estreitar', ({ e }) => {
-	const tamanho = e;
-	console.log(tamanho);
+	breakpoints: {
+		// when window width is >= 320px
+		320: {
+			slidesPerView: 2,
+			spaceBetween: 10,
+			loop: true,
+			autoplay: {
+				delay: 2000,
+			},
+		},
+		// when window width is >= 480px
+		480: {
+			slidesPerView: 3,
+			spaceBetween: 10,
+			loop: true,
+			autoplay: {
+				delay: 2000,
+			},
+		},
+		// when window width is >= 640px
+		640: {
+			slidesPerView: 5,
+			spaceBetween: 40,
+			loop: true,
+			autoplay: {
+				delay: 2000,
+			},
+		},
+	},
 });
